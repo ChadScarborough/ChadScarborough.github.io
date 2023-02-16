@@ -557,7 +557,7 @@ footer {
 }
 #contact {
   padding: 50px 15px;
-  background-image: linear-gradient(to right, #f0f8, #0ff8);
+  background-image: linear-gradient(to left, #f0f8, #0ff8);
   z-index: 1;
   text-align: center;
 }
