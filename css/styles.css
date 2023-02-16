@@ -451,22 +451,26 @@ footer {
   float: left;
   margin: 0;
   color: #fcf;
+  text-shadow: 0.05em 0.05em 0 #f0f;
 }
 .education-block span {
   color: #fcf;
   float: right;
+  text-shadow: 0.05em 0.05em 0 #f0f;
 }
 .education-block h4 {
   color: #fcf;
   clear: both;
   font-weight: 500;
   margin: 0 0 15px 0;
+  text-shadow: 0.05em 0.05em 0 #f0f;
 }
 .education-block p,
 .education-block ul {
   margin: 0;
   color: #fcf;
   font-size: 0.9em;
+  text-shadow: 0.05em 0.05em 0 #f0f;
 }
 .education-block ul {
   padding: 0 0 0 15px;
