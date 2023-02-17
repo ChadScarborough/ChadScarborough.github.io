@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The BEAM Piano Project</title>
+    <link rel="icon" href="/images/vaporwave_sun.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/project_styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="project">
+      <div id="project-overlay"></div>
+      <div id="project-title">
+        <h1>The BEAM Piano Project</h1>
+      </div>
+      <div id="project-description">
+        <p>
+          The BEAM Piano Project is an <i>avant-garde</i> art installation by
+          the Eugene Difficult Music Ensemble for BEAM 2022, hosted by ArtCity
+          in Eugene, Oregon. For this project, we modified an upright piano to
+          control individually addressable LEDs on the front and back sides by
+          simply playing it as normal. I was responsible for the engineering of
+          this project, including both software and circuit design.
+          <br />
+          <br />
+          How it works:
+          <br />
+          <br />
+          When the performer depresses one of the keys, two wires located
+          beneath the key make contact. These wires are soldered at the other
+          end to a circuitboard taken from one of several video game controllers
+          such that the contact between the wires simulates a button press on
+          the controller. All of the controllers are connected to a Raspberry Pi
+          with hand-written drivers processing the inputs. Those inputs are then
+          fed into a Python script that controls the lights based on which
+          inputs it receives.
+          <br />
+          The lights on the front side of the piano generate a ripple effect
+          emanating from the location of the key that was pressed. On the back,
+          a random set of lights are toggled on or off each time a new key is
+          pressed.
+        </p>
+      </div>
+      <div id="video">
+        <video width="300" height="600" controls>
+          <source
+            src="media/BEAM Piano Project Demonstration.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+      <div id="return-link">
+        <p><a href="index.html#projects">Go back</a></p>
+      </div>
+    </div>
+  </body>
+</html>

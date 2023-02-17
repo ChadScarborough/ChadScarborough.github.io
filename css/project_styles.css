@@ -1,0 +1,52 @@
+#project {
+    position: fixed;
+    color: #406;
+    height: 100%;
+    background-size: cover;
+    background-image: url(../images/solo-jaz.jpg);
+    overflow-y: auto;
+    z-index: -2;
+}
+
+#project-overlay {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: linear-gradient(to bottom right, #f0fa, #0ffa);
+    z-index: -1;
+}
+
+#project-title {
+    position: relative;
+    text-shadow: 0.08em 0.08em 0 #0ff;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    z-index: 0;
+}
+
+#project-description {
+    background-color:#406;
+    color: #f8f;
+    text-shadow: 0.05em 0.05em 0 #f0f;
+    line-height: 1.65em;
+    font-size: large;
+    padding: 1em 2em;
+    position: relative;
+    text-align: justify;
+    margin: 0vh 15vw;
+    z-index: 0;
+}
+
+#video {
+    position: relative;
+    text-align: center;
+    z-index: 0;
+}
+
+#return-link {
+    position: relative;
+    text-align: center;
+    z-index: 0;
+}
