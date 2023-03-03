@@ -21,7 +21,14 @@
         <h1>Sudoku Solver</h1>
       </div>
       <div id="project-description">
-        <p>it do math good</p>
+        <p>The Sudoku Solver is a Windows Form Application written in C# that takes a given incomplete Sudoku puzzle as input and outputs a valid solution, if one exists.
+          <br>
+          <br>
+          How it works:
+          <br>
+          <br>
+          This application uses a recursive backtracking algorithm, adding a 1 in the first empty cell and checking whether the grid is valid in its current state. If so, it moves to the next cell, inputs a 1 there, and repeats the process. If the grid is not valid (e.g. there are two 1s next to each other), the most recent cell is incremented, and the check is performed again. If a cell with the value 9 is incremented, that cell is cleared, the program backtracks to the previous cell, and that cell is incremented. This process continues until either the entire grid is filled with a valid solution or the first cell is cleared after incrementing from a 9, in which case there is no valid solution.
+        </p>
       </div>
       <div id="links">
         <p>
