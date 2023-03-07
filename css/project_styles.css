@@ -55,4 +55,28 @@
     position: relative;
     text-align: center;
     z-index: 0;
+    color: #406;
 }
+
+a {
+    margin: 0.2em;
+}
+
+a:link, a:visited {
+    background-image: linear-gradient(#00c, #30c);
+    color: #f8f;
+    text-shadow: 0.05em 0.05em 0 #f0f;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  a:hover, a:active {
+    color: #f4f;
+    text-shadow: 0.05em 0.05em 0 #c0c;
+    background-image: linear-gradient(#30f, #50f);
+    font-weight: bold;
+  }
